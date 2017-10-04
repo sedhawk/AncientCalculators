@@ -11,7 +11,25 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public static void main(String[] args){
-        System.out.println("Hello");
+
+
+    }
+
+    static class Calculator {
+      //  Calculator(char op, double num1, double num2){}
+        public double add(double num1, double num2){
+            return num1+num2;
+        }
+        public double subtract(double num1, double num2){
+            return num1-num2;
+        }
+        public int multiply(double num1, double num2){
+            return (int) num1 * (int) num2;
+        }
+        public int divide(double num1, double num2){
+            return (int) num1 / (int) num2;
+        }
+
     }
 
 }
