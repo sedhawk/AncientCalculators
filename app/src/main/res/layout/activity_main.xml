@@ -38,6 +38,17 @@
             android:id="@+id/b6"
             android:layout_width="50dp"
             android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/p6"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:text="64"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
     </TableRow>
 
     <TableRow
@@ -55,10 +66,13 @@
 
         <EditText
             android:id="@+id/p0"
-            android:layout_width="166dp"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="number" />
+            android:inputType="number"
+            android:text="1"
+            android:textAlignment="center"
+            android:textSize="14sp" />
 
     </TableRow>
 
@@ -74,6 +88,17 @@
             android:id="@+id/b4"
             android:layout_width="50dp"
             android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/p4"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:text="16"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
     </TableRow>
 
     <TableRow
@@ -88,6 +113,17 @@
             android:id="@+id/b3"
             android:layout_width="50dp"
             android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/p3"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:text="8"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
     </TableRow>
 
     <TableRow
@@ -102,6 +138,17 @@
             android:id="@+id/b2"
             android:layout_width="50dp"
             android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/p2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:text="4"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
     </TableRow>
 
     <TableRow
@@ -116,6 +163,17 @@
             android:id="@+id/b1"
             android:layout_width="50dp"
             android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/p1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:text="2"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
     </TableRow>
 
     <ImageView
@@ -147,6 +205,17 @@
             android:id="@+id/b5"
             android:layout_width="50dp"
             android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/p5"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:text="32"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
     </TableRow>
 
     <Button
