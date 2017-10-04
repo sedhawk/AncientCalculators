@@ -32,7 +32,13 @@
         android:layout_height="38dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="339dp" />
+        tools:layout_editor_absoluteY="339dp" >
+
+        <Switch
+            android:id="@+id/b6"
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
+    </TableRow>
 
     <TableRow
         android:id="@+id/r0"
@@ -46,6 +52,14 @@
             android:id="@+id/b0"
             android:layout_width="50dp"
             android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/p0"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
     </TableRow>
 
     <TableRow
@@ -54,7 +68,13 @@
         android:layout_height="38dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="263dp" />
+        tools:layout_editor_absoluteY="263dp" >
+
+        <Switch
+            android:id="@+id/b4"
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
+    </TableRow>
 
     <TableRow
         android:id="@+id/r3"
@@ -62,7 +82,13 @@
         android:layout_height="38dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="225dp" />
+        tools:layout_editor_absoluteY="225dp" >
+
+        <Switch
+            android:id="@+id/b3"
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
+    </TableRow>
 
     <TableRow
         android:id="@+id/r2"
@@ -70,7 +96,13 @@
         android:layout_height="38dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="187dp" />
+        tools:layout_editor_absoluteY="187dp" >
+
+        <Switch
+            android:id="@+id/b2"
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
+    </TableRow>
 
     <TableRow
         android:id="@+id/r1"
@@ -111,6 +143,10 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="301dp">
 
+        <Switch
+            android:id="@+id/b5"
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
     </TableRow>
 
     <Button
