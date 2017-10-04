@@ -185,14 +185,6 @@
         app:srcCompat="@drawable/egyptian_eye"
         tools:layout_editor_absoluteX="157dp" />
 
-    <GridView
-        android:id="@+id/Op"
-        android:layout_width="79dp"
-        android:layout_height="37dp"
-        android:visibility="visible"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="51dp" />
-
     <TableRow
         android:id="@+id/r5"
         android:layout_width="368dp"
@@ -273,5 +265,12 @@
         android:inputType="numberDecimal"
         tools:layout_editor_absoluteX="13dp"
         tools:layout_editor_absoluteY="426dp" />
+
+    <Spinner
+        android:id="@+id/Op"
+        android:layout_width="93dp"
+        android:layout_height="36dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="51dp" />
 
 </android.support.constraint.ConstraintLayout>
