@@ -49,6 +49,16 @@
             android:textAlignment="center"
             android:textSize="14sp" />
 
+        <EditText
+            android:id="@+id/n6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:text="doubled"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
     </TableRow>
 
     <TableRow
@@ -71,6 +81,16 @@
             android:ems="10"
             android:inputType="number"
             android:text="1"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/n0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:text="num2"
             android:textAlignment="center"
             android:textSize="14sp" />
 
@@ -99,6 +119,16 @@
             android:textAlignment="center"
             android:textSize="14sp" />
 
+        <EditText
+            android:id="@+id/n4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:text="doubled"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
     </TableRow>
 
     <TableRow
@@ -121,6 +151,16 @@
             android:ems="10"
             android:inputType="number"
             android:text="8"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/n3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:text="doubled"
             android:textAlignment="center"
             android:textSize="14sp" />
 
@@ -149,6 +189,16 @@
             android:textAlignment="center"
             android:textSize="14sp" />
 
+        <EditText
+            android:id="@+id/n3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:text="doubled"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
     </TableRow>
 
     <TableRow
@@ -171,6 +221,16 @@
             android:ems="10"
             android:inputType="number"
             android:text="2"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/n1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:text="doubled"
             android:textAlignment="center"
             android:textSize="14sp" />
 
@@ -205,6 +265,16 @@
             android:ems="10"
             android:inputType="number"
             android:text="32"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/n5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:text="doubled"
             android:textAlignment="center"
             android:textSize="14sp" />
 
