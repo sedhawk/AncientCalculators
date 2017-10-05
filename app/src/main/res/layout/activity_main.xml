@@ -401,6 +401,5 @@
             tools:layout_editor_absoluteX="193dp"
             tools:layout_editor_absoluteY="423dp" />
     </TableRow>
-
-
+    
 </android.support.constraint.ConstraintLayout>
