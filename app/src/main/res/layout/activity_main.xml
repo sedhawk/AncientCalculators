@@ -271,8 +271,8 @@
         android:layout_width="163dp"
         android:layout_height="38dp"
         android:layout_marginTop="4dp"
-        android:background="@android:color/holo_green_dark"
         android:text="GO!"
+        android:background="@android:color/holo_green_dark"
         app:layout_constraintTop_toBottomOf="@+id/ans_row"
         tools:layout_editor_absoluteX="111dp" />
 
@@ -347,9 +347,10 @@
             android:id="@+id/num1a"
             android:layout_width="110dp"
             android:layout_height="match_parent"
+            android:background="@drawable/border_styoe"
+            android:paddingTop="@dimen/default_gap"
             android:text="Total"
             android:textAlignment="center"
-            android:background="@drawable/border_styoe"
             tools:layout_editor_absoluteX="12dp"
             tools:layout_editor_absoluteY="16dp" />
 
@@ -357,9 +358,10 @@
             android:id="@+id/frac"
             android:layout_width="71dp"
             android:layout_height="match_parent"
+            android:background="@drawable/border_styoe"
+            android:paddingTop="@dimen/default_gap"
             android:text="R/num2"
             android:textAlignment="center"
-            android:background="@drawable/border_styoe"
             tools:layout_editor_absoluteX="12dp"
             tools:layout_editor_absoluteY="16dp" />
 
@@ -367,9 +369,10 @@
             android:id="@+id/num1a2"
             android:layout_width="112dp"
             android:layout_height="match_parent"
+            android:background="@drawable/border_styoe"
+            android:paddingTop="@dimen/default_gap"
             android:text="Total"
             android:textAlignment="center"
-            android:background="@drawable/border_styoe"
             tools:layout_editor_absoluteX="12dp"
             tools:layout_editor_absoluteY="16dp" />
 
@@ -377,9 +380,11 @@
             android:id="@+id/remainder"
             android:layout_width="76dp"
             android:layout_height="match_parent"
-            android:text="r."
-            android:textAlignment="center"
             android:background="@drawable/border_styoe"
+            android:paddingLeft="@dimen/default_gap"
+            android:paddingTop="@dimen/default_gap"
+            android:text="r."
+            android:textAlignment="textStart"
             tools:layout_editor_absoluteX="12dp"
             tools:layout_editor_absoluteY="16dp" />
 
@@ -402,9 +407,10 @@
             android:id="@+id/ans"
             android:layout_width="129dp"
             android:layout_height="match_parent"
+            android:background="@drawable/border_styoe"
+            android:paddingTop="@dimen/default_gap"
             android:text="ANS"
             android:textAlignment="center"
-            android:background="@drawable/border_styoe"
             tools:layout_editor_absoluteX="12dp"
             tools:layout_editor_absoluteY="16dp" />
 
@@ -423,9 +429,10 @@
             android:textColor="@android:color/black"
             android:visibility="visible"
 
-
+            />
         <!--tools:layout_editor_absoluteX="193dp"
-            tools:layout_editor_absoluteY="423dp"--> />
+            tools:layout_editor_absoluteY="423dp"-->
+
     </TableRow>
 
 </android.support.constraint.ConstraintLayout>
