@@ -309,7 +309,7 @@
             android:layout_height="match_parent"
             android:ems="10"
             android:inputType="number"
-            android:textSize="8sp"
+            android:textSize="14sp"
             tools:layout_editor_absoluteX="108dp"
             tools:layout_editor_absoluteY="16dp" />
 
@@ -319,7 +319,7 @@
             android:layout_height="42dp"
             android:ems="10"
             android:inputType="number"
-            android:textSize="8sp"
+            android:textSize="14sp"
             tools:layout_editor_absoluteX="222dp"
             tools:layout_editor_absoluteY="16dp" />
     </TableRow>
@@ -394,7 +394,6 @@
             android:layout_width="139dp"
             android:layout_height="34dp"
             android:background="@android:color/holo_red_dark"
-            android:paddingRight="0dp"
             android:text="Clear"
             android:textColor="@android:color/black"
             android:visibility="visible"
