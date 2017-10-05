@@ -47,7 +47,11 @@
         android:id="@+id/r0"
         android:layout_width="368dp"
         android:layout_height="37dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
         android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/input_row"
         tools:layout_editor_absoluteX="8dp">
 
@@ -259,12 +263,11 @@
         android:id="@+id/go"
         android:layout_width="163dp"
         android:layout_height="38dp"
-        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
         android:background="@android:color/holo_green_dark"
         android:text="GO!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/ans_row"
+        tools:layout_editor_absoluteX="111dp" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
@@ -375,9 +378,12 @@
         android:id="@+id/ans_row"
         android:layout_width="347dp"
         android:layout_height="36dp"
+        android:layout_gravity="center_horizontal"
         android:layout_marginRight="16dp"
         android:layout_marginTop="4dp"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/guideline3"
         app:layout_constraintTop_toBottomOf="@+id/output_row">
 
         <TextView
