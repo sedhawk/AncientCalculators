@@ -4,6 +4,10 @@ Fun With Calculators
 Collaborators:
 Abdulaziz Zarie & Don Speer
 
+Ancient Egypt used identical mathematics we use in modern computers today with Power Base 2
+ 
+This calculator app shows how this works and is used for educational purposes. 
+
 References (ACM)
 
 [1] Anon. 2008. Egyptian Maths. (September 2008). Retrieved September 27, 2017 from https://youtu.be/Ih1ZWE3pe9o
