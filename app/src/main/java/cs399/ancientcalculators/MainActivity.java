@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         calc = new Calculator();
 
-        mySpinner = (Spinner) findViewById(R.id.Operators); // the dropdown spinner
+        mySpinner = (Spinner) findViewById(R.id.Op); // the dropdown spinner
         inNum1 = (EditText) findViewById(R.id.num1); // the first number user inputs
         inNum2 = (EditText) findViewById(R.id.num2); // second number user inputs
         answer = (TextView) findViewById(R.id.ans); // the answer block
@@ -70,10 +70,23 @@ public class MainActivity extends AppCompatActivity {
 
         String num2Value = inNum1.getText().toString(); // num2
         double num2Final =Double.parseDouble(num2Value);
-        if (mySpinner.getSelectedItem().toString() == "+")
+        if (mySpinner.getSelectedItem().toString() == "+"){
             value = calc.add(num1Final,num2Final);
+            answer.setText("" + value);
+        }
 
-        answer.setText("" + value);
+        else if (mySpinner.getSelectedItem().toString() == "-"){
+            value = calc.divide(num1Final,num2Final);
+            answer.setText("" + value);
+        }
+
+        else if (mySpinner.getSelectedItem().toString() == "*"){
+            value = calc.multiply(num1Final, num2Final);
+            answer.setText("" + value);
+        }
+
+
+
 
     }
     public static void main(String[] args){
