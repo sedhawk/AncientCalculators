@@ -342,6 +342,7 @@
             android:layout_height="match_parent"
             android:text="Total"
             android:textAlignment="center"
+            android:background="@drawable/border_styoe"
             tools:layout_editor_absoluteX="12dp"
             tools:layout_editor_absoluteY="16dp" />
 
@@ -351,6 +352,7 @@
             android:layout_height="match_parent"
             android:text="R/num2"
             android:textAlignment="center"
+            android:background="@drawable/border_styoe"
             tools:layout_editor_absoluteX="12dp"
             tools:layout_editor_absoluteY="16dp" />
 
@@ -360,6 +362,7 @@
             android:layout_height="match_parent"
             android:text="Total"
             android:textAlignment="center"
+            android:background="@drawable/border_styoe"
             tools:layout_editor_absoluteX="12dp"
             tools:layout_editor_absoluteY="16dp" />
 
@@ -369,6 +372,7 @@
             android:layout_height="match_parent"
             android:text="r."
             android:textAlignment="center"
+            android:background="@drawable/border_styoe"
             tools:layout_editor_absoluteX="12dp"
             tools:layout_editor_absoluteY="16dp" />
 
@@ -393,6 +397,7 @@
             android:layout_height="match_parent"
             android:text="ANS"
             android:textAlignment="center"
+            android:background="@drawable/border_styoe"
             tools:layout_editor_absoluteX="12dp"
             tools:layout_editor_absoluteY="16dp" />
 
@@ -410,6 +415,7 @@
             android:text="Clear"
             android:textColor="@android:color/black"
             android:visibility="visible"
+
 
         <!--tools:layout_editor_absoluteX="193dp"
             tools:layout_editor_absoluteY="423dp"--> />
