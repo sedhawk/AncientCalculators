@@ -21,6 +21,7 @@
         <Switch
             android:id="@+id/b6"
             android:layout_width="50dp"
+            android:checked="false"
             android:layout_height="match_parent" />
 
         <TextView
@@ -58,6 +59,7 @@
         <Switch
             android:id="@+id/b0"
             android:layout_width="50dp"
+            android:checked="false"
             android:layout_height="match_parent" />
 
         <TextView
@@ -92,6 +94,7 @@
         <Switch
             android:id="@+id/b4"
             android:layout_width="50dp"
+            android:checked="false"
             android:layout_height="match_parent" />
 
         <TextView
@@ -126,6 +129,7 @@
         <Switch
             android:id="@+id/b3"
             android:layout_width="50dp"
+            android:checked="false"
             android:layout_height="match_parent" />
 
         <TextView
@@ -160,6 +164,7 @@
         <Switch
             android:id="@+id/b2"
             android:layout_width="50dp"
+            android:checked="false"
             android:layout_height="match_parent" />
 
         <TextView
@@ -194,6 +199,7 @@
         <Switch
             android:id="@+id/b1"
             android:layout_width="50dp"
+            android:checked="false"
             android:layout_height="match_parent" />
 
         <TextView
@@ -237,6 +243,7 @@
         <Switch
             android:id="@+id/b5"
             android:layout_width="50dp"
+            android:checked="false"
             android:layout_height="match_parent" />
 
         <TextView
