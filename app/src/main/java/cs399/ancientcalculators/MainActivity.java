@@ -63,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void calculateOp(){
+
+        String operand = mySpinner.getSelectedItem().toString();
         // transforming the edit text to a double
         String num1Value = inNum1.getText().toString(); // num1
         double num1Final =Integer.parseInt(num1Value);
@@ -70,20 +72,29 @@ public class MainActivity extends AppCompatActivity {
 
         String num2Value = inNum1.getText().toString(); // num2
         double num2Final =Double.parseDouble(num2Value);
-        if (mySpinner.getSelectedItem().toString() == "+"){
+        if (operand.equals("+")){
             value = calc.add(num1Final,num2Final);
             answer.setText("" + value);
         }
 
-        else if (mySpinner.getSelectedItem().toString() == "-"){
+        else if (operand.equals("-")){
+            value = calc.subtract(num1Final,num2Final);
+            answer.setText("" + value);
+        }
+
+        else if (operand.equals("/")){
             value = calc.divide(num1Final,num2Final);
             answer.setText("" + value);
         }
 
-        else if (mySpinner.getSelectedItem().toString() == "*"){
+        else if (operand.equals("*")){
             value = calc.multiply(num1Final, num2Final);
             answer.setText("" + value);
         }
+        else {
+            answer.setText(operand);
+        }
+
 
 
 
